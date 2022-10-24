@@ -85,9 +85,10 @@ ___
 * ``alt``表示图片加载失败时显示的文本
 * ``url``表示该图片的位置
 * ``title``表示鼠标悬停在图片时显示的文本
-* 用``<div align=center>``和``</div>``(注：在Edit模式下，居中效果不会显示，需要commit后才能看到）
+* 用``<div align="center">``和``</div>``(注：在Edit模式下，居中效果不会显示，需要commit后才能看到）
 
-<div align=center>
-![image](https://github.com/2068934868/image/blob/a63247967715a70371e8eadcefb8e183d113c490/testgif1.gif"周杰伦")<br>
-![image](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testpng1.png"周杰伦")
+<div align="center">
+<img src="https://github.com/2068934868/image/blob/a63247967715a70371e8eadcefb8e183d113c490/testgif1.gif">
 </div>
+
+![image](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testpng1.png"周杰伦")
