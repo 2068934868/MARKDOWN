@@ -127,3 +127,89 @@ ___
 ## 11.2 效果：
 [![周杰伦Apple music](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testpng1.png)](https://www.apple.com.cn/apple-music/)
 
+<p align="center">
+点我跳转
+</p>
+
+# 12.插入符号
+## 12.1 说明：
+为了实现符号列表，使文章更具有条理性，github支持圆点符号和正方形符号等。通常在编辑的时候用星号``*[空格]``来表示。若要实现二级圆点或三级圆点，只需多加一个Tab键就可以。
+## 12.2 效果：
+* 一级圆点
+  * 二级圆点
+    * 三级圆点
+      * 四级圆点
+        * 五级圆点
+
+# 13.复选框
+## 13.1 说明：
+复选框列表的功能可用来标注各个项目的完成情况等，或者某个调查的多选情况。基本格式：
+* 用``-[空格][x][空格]我叫lzcy``表示选中
+* 用``-[空格][ ][空格]很高兴认识大家``表示未选中
+
+## 13.2 效果：
+- [x] 大家好
+- [x] 我叫lzcy
+- [ ] 很高兴认识大家
+
+# 14.多级结构
+## 14.1 说明：
+我们需要使用类似树结构，并且实现分级时候，可以使用``>[空格]``来进行分级，其中对应多少>实现几级的树结构
+## 14.2 效果：
+> 一级树
+>> 二级树
+>>> 三级树
+>>>> 四级树
+
+# 15.代码高亮
+## 15.1 说明：
+若需要添加代码的话，则只需在对应代码的前后加上三个反引号``[```]``后加上对应编程语言就可以，大小写不用管，例如python语言就写python，c语言就写c。  
+例如实现Python代码高亮：
+
+    ```python
+    for i or range(10):
+        print(i)
+    ```
+## 15.2 效果：
+```python
+for i or range(10):
+    print(i)
+```
+
+# 16.添加表情
+## 16.1 说明：
+Github的readme支持添加emoji表情，输入不同的符号码(两个冒号包围的字符)可以显示出不同的表情。下面我就简单列出常见的表情，另外其他表情可以通过查询[Github官网表情](http://www.emoji-cheat-sheet.com/)
+## 16.2 效果：
+| syntax | preview | syntax | preview |
+| :---: | :---: | :---: | :---: |
+| ``:blush:`` | :blush: | ``:kissing_closed_eyes:`` | :kissing_closed_eyes: |
+| ``:smirk:`` | :smirk: | ``:stuck_out_tongue_winking_eye:`` | :stuck_out_tongue_winking_eye: |
+| ``:sleeping:`` | :sleeping: | ``:satisfied:`` | :satisfied: |
+| ``:smile:`` | :smile: | ``:smiley:`` | :smiley: |
+| ``:heart_eyes:`` | :heart_eyes: | ``:flushed:`` | :flushed: |
+| ``:grin:`` | :grin: | ``:worried:`` | :worried: |
+
+# 17. 使用锚点
+## 17.1 说明：
+往往看完文档或者readme，这时候需要一个一键返回顶部，基本格式为``Loading...``
+## 17.2 效果：
+Loading...
+
+# 18. diff语法
+## 18.1 说明：
+一般diff功能可以实现一个文件内容的增添与删减操作。GFM中可以显示展示diff效果。基本格式：同样以三个反引号``[```]``后面写diff，用``+``绿色开头表示新增，``-``红色开头表示删除，还有``！``黄色开头表示警告和``#``黑色开头表示错误。
+
+    ```diff
+    + 大家好
+    - 我是lzcy
+    ！我很高兴认识大家
+    # 我是女生
+
+## 18.2 效果：
+```diff
++ 大家好
+- 我是lzcy
+！我很高兴认识大家
+# 我是女生
+
+Loading...
