@@ -86,6 +86,6 @@ ___
 * ``url``表示该图片的位置
 * ``title``表示鼠标悬停在图片时显示的文本
 
-![alt](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testjif1.gif)
+![image](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testjif1.gif)
 
-![image text](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testpng1.png)
+![image](https://github.com/2068934868/image/blob/e0e9332ec83b7ffadabede3c0e10b55d3dce558b/testpng1.png)
