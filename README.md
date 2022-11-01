@@ -210,9 +210,10 @@ Loading...
 + 大家好
 - 我是lzcy
 ! 我很高兴认识大家
-# 我是女生
+# 我是女生 
 ```
 
+<<<<<<< HEAD
 # 19.交叉引用
 ## 19.1 引用：
 Markdown中的引用使用方法为在要引用的文字前输入``>``，如：<br>
@@ -253,3 +254,4 @@ Markdown中的引用使用方法为在要引用的文字前输入``>``，如：<
 <img src="https://github.com/2068934868/image/blob/399d49f9f7e354c0402dd7b3c3463a44f92258ca/%E6%BB%9E%E5%9B%9E%E6%A8%A1%E5%9E%8B%E5%88%86%E7%B1%BB.png" alt="ML" style="zoom:80%";"/>
 <br>图1：滞回曲线分类
 </div>
+
